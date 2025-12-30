@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0401A8FA2F03B4D00090E6FC /* PRIVACY.md in Resources */ = {isa = PBXBuildFile; fileRef = 0401A8F92F03B4D00090E6FC /* PRIVACY.md */; };
+		0401A9502F03D9E10090E6FC /* APPSTORE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0401A94F2F03D9E10090E6FC /* APPSTORE.md */; };
 		0455E9312F01C21600ABFFA6 /* DESCRIPTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 0455E9302F01C20400ABFFA6 /* DESCRIPTION.md */; };
 		0455E9332F01C28100ABFFA6 /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0455E9322F01C27500ABFFA6 /* CLAUDE.md */; };
 		0455E9532F03B2D100ABFFA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0455E9522F03B2D100ABFFA6 /* README.md */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		0401A8CC2F03B3560090E6FC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0401A8F92F03B4D00090E6FC /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.md; sourceTree = "<group>"; };
+		0401A94F2F03D9E10090E6FC /* APPSTORE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APPSTORE.md; sourceTree = "<group>"; };
 		0455E9062F01C12600ABFFA6 /* ColorMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0455E9132F01C12800ABFFA6 /* ColorMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0455E91D2F01C12800ABFFA6 /* ColorMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		0455E8FD2F01C12600ABFFA6 = {
 			isa = PBXGroup;
 			children = (
+				0401A94F2F03D9E10090E6FC /* APPSTORE.md */,
 				0401A8F92F03B4D00090E6FC /* PRIVACY.md */,
 				0401A8CC2F03B3560090E6FC /* .gitignore */,
 				0455E9522F03B2D100ABFFA6 /* README.md */,
@@ -231,6 +234,7 @@
 			files = (
 				0455E9312F01C21600ABFFA6 /* DESCRIPTION.md in Resources */,
 				0401A8FA2F03B4D00090E6FC /* PRIVACY.md in Resources */,
+				0401A9502F03D9E10090E6FC /* APPSTORE.md in Resources */,
 				0455E9532F03B2D100ABFFA6 /* README.md in Resources */,
 				0455E9332F01C28100ABFFA6 /* CLAUDE.md in Resources */,
 			);
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -119,5 +119,6 @@ Temporary Items
 # App-specific - internal documentation
 DESCRIPTION.md
 CLAUDE.md
+APPSTORE.md
 *.sketch
 *.fig
