@@ -116,9 +116,8 @@ Temporary Items
 # SwiftLint
 .swiftlint.yml
 
-# App-specific
-description.md
+# App-specific - internal documentation
+DESCRIPTION.md
+CLAUDE.md
 *.sketch
 *.fig
-
-CLAUDE.md
