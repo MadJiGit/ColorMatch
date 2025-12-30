@@ -17,6 +17,13 @@ struct MainMenuView: View {
             VStack(spacing: 30) {
                 Spacer()
 
+                // Game Logo
+                Image("Logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 120, height: 120)
+                    .padding(.bottom, 10)
+
                 // App Title
                 Text("ColorMatch")
                     .font(.largeTitle)
