@@ -1,10 +1,10 @@
-# ColorMatch
+# Color Lab 255
 
 An educational iOS game designed to help children learn RGB color composition through interactive gameplay.
 
 ## About
 
-ColorMatch is an engaging educational app that teaches children how colors are created using RGB (Red, Green, Blue) values. Players adjust RGB sliders to match a target color, learning color theory while having fun.
+Color Lab 255 is an engaging educational app that teaches children how colors are created using RGB (Red, Green, Blue) values. Players adjust RGB sliders to match a target color, learning color theory while having fun.
 
 ## Features
 
@@ -46,7 +46,7 @@ open ColorMatch.xcodeproj
 
 ## Privacy
 
-ColorMatch is designed with children's privacy in mind:
+Color Lab 255 is designed with children's privacy in mind:
 - No personal data collection
 - No third-party analytics or advertising
 - No in-app purchases

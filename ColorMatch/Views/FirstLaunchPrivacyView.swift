@@ -16,7 +16,7 @@ struct FirstLaunchPrivacyView: View {
             VStack(spacing: 0) {
                 // Header
                 VStack(spacing: 16) {
-                    Text("Welcome to ColorMatch!")
+                    Text("Welcome to\nColor Lab 255!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)

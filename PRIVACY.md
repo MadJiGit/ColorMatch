@@ -6,11 +6,11 @@
 
 ## Introduction
 
-ColorMatch is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.
+"Color Lab 255" is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.
 
 ## Data Collection
 
-ColorMatch does **NOT** collect, store, or transmit any personal information. The app:
+"Color Lab 255" does **NOT** collect, store, or transmit any personal information. The app:
 
 - Does not require registration or account creation
 - Does not collect names, email addresses, or any personal data
@@ -31,13 +31,13 @@ The app stores the following preferences locally on your device only:
 
 ## Children's Privacy (COPPA Compliance)
 
-ColorMatch is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.
+"Color Lab 255" is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.
 
 **The app is completely offline and does not require internet connection to function.**
 
 ## Third-Party Services
 
-ColorMatch does not integrate with any third-party services, SDKs, or frameworks that collect data.
+"Color Lab 255" does not integrate with any third-party services, SDKs, or frameworks that collect data.
 
 ## Changes to This Privacy Policy
 
@@ -52,4 +52,4 @@ If you have any questions about this Privacy Policy, please contact us:
 
 ---
 
-*By using ColorMatch, you agree to this Privacy Policy.*
+*By using "Color Lab 255", you agree to this Privacy Policy.*

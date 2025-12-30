@@ -30,7 +30,7 @@ struct PrivacyPolicyView: View {
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("ColorMatch is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.")
+                    Text("\"Color Lab 255\" is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.")
                         .font(.body)
                 }
 
@@ -40,7 +40,7 @@ struct PrivacyPolicyView: View {
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("ColorMatch does NOT collect, store, or transmit any personal information. The app:")
+                    Text("\"Color Lab 255\" does NOT collect, store, or transmit any personal information. The app:")
                         .font(.body)
 
                     VStack(alignment: .leading, spacing: 8) {
@@ -78,7 +78,7 @@ struct PrivacyPolicyView: View {
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("ColorMatch is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.")
+                    Text("\"Color Lab 255\" is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.")
                         .font(.body)
 
                     Text("The app is completely offline and does not require internet connection to function.")
@@ -92,7 +92,7 @@ struct PrivacyPolicyView: View {
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("ColorMatch does not integrate with any third-party services, SDKs, or frameworks that collect data.")
+                    Text("\"Color Lab 255\" does not integrate with any third-party services, SDKs, or frameworks that collect data.")
                         .font(.body)
                 }
 
@@ -137,7 +137,7 @@ struct PrivacyPolicyView: View {
                 Divider()
 
                 // Footer
-                Text("By using ColorMatch, you agree to this Privacy Policy.")
+                Text("By using \"Color Lab 255\", you agree to this Privacy Policy.")
                     .font(.caption)
                     .foregroundColor(.secondary)
                     .padding(.top, 10)

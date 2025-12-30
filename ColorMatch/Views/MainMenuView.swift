@@ -25,7 +25,7 @@ struct MainMenuView: View {
                     .padding(.bottom, 10)
 
                 // App Title
-                Text("ColorMatch")
+                Text("Color Lab 255")
                     .font(.largeTitle)
                     .fontWeight(.bold)
 
