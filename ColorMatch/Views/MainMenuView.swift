@@ -25,12 +25,12 @@ struct MainMenuView: View {
                     .padding(.bottom, 10)
 
                 // App Title
-                Text("Color Lab 255")
+                Text("app_title")
                     .font(.largeTitle)
                     .fontWeight(.bold)
 
                 // Subtitle
-                Text("Learn RGB Colors!")
+                Text("app_subtitle")
                     .font(.title3)
                     .foregroundColor(.secondary)
 
@@ -40,7 +40,7 @@ struct MainMenuView: View {
                 VStack(spacing: 20) {
                     // Play Game Button
                     NavigationLink(destination: GameView()) {
-                        Text("Play Game")
+                        Text("play_game")
                             .font(.title2)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
@@ -52,7 +52,7 @@ struct MainMenuView: View {
 
                     // Settings Button
                     NavigationLink(destination: SettingsView()) {
-                        Text("Settings")
+                        Text("settings")
                             .font(.title3)
                             .foregroundColor(.blue)
                             .frame(maxWidth: .infinity)
@@ -63,7 +63,7 @@ struct MainMenuView: View {
 
                     // Privacy Policy Button
                     NavigationLink(destination: PrivacyPolicyView()) {
-                        Text("Privacy Policy")
+                        Text("privacy_policy")
                             .font(.title3)
                             .foregroundColor(.blue)
                             .frame(maxWidth: .infinity)
@@ -89,7 +89,7 @@ struct MainMenuView: View {
 //                                    .stroke(Color.black.opacity(0.2), lineWidth: 1)
 //                            )
 
-                        Text("Developed by MadJi")
+                        Text("developed_by")
                             .font(.caption2)
                             .foregroundColor(.secondary)
                     }

@@ -42,13 +42,13 @@ struct GameView: View {
                 if settings.showColorValues {
                     HStack(spacing: 30) {
                         ColorDisplayView(
-                            label: "Target",
+                            label: String(localized: "target"),
                             color: viewModel.targetColor.color,
                             hexCode: viewModel.targetColor.hexString
                         )
 
                         ColorDisplayView(
-                            label: "Current",
+                            label: String(localized: "current"),
                             color: viewModel.currentColor.color,
                             hexCode: viewModel.currentColor.hexString
                         )
@@ -72,7 +72,7 @@ struct GameView: View {
                                 .frame(width: 60, alignment: .center)
                         }
                         ColorSliderView(
-                            label: "Red",
+                            label: String(localized: "red"),
                             color: .red,
                             value: $redValue
                         )
@@ -90,7 +90,7 @@ struct GameView: View {
                                 .frame(width: 60, alignment: .center)
                         }
                         ColorSliderView(
-                            label: "Green",
+                            label: String(localized: "green"),
                             color: .green,
                             value: $greenValue
                         )
@@ -108,7 +108,7 @@ struct GameView: View {
                                 .frame(width: 60, alignment: .center)
                         }
                         ColorSliderView(
-                            label: "Blue",
+                            label: String(localized: "blue"),
                             color: .blue,
                             value: $blueValue
                         )
@@ -132,7 +132,7 @@ struct GameView: View {
                     }
 
                 VStack(spacing: 20) {
-                    Text("Match!")
+                    Text("match")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.green)
@@ -140,7 +140,7 @@ struct GameView: View {
                     Button(action: {
                         showMatchPopup = false
                     }) {
-                        Text("Close")
+                        Text("close")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding(.horizontal, 40)
@@ -155,7 +155,7 @@ struct GameView: View {
                 .shadow(radius: 20)
             }
         }
-        .navigationTitle("Color Match")
+        .navigationTitle(String(localized: "game_title"))
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {

@@ -1,0 +1,181 @@
+/*
+  Localizable.strings (Romanian)
+  Color Lab 255
+*/
+
+// MARK: - Main Menu
+"app_title" = "Color Lab 255";
+"app_subtitle" = "Învață Culorile RGB!";
+"play_game" = "Joacă";
+"settings" = "Setări";
+"privacy_policy" = "Politica de Confidențialitate";
+"developed_by" = "Dezvoltat de MadJi";
+
+// MARK: - Game View
+"game_title" = "Potrivire de Culoare";
+"match" = "Potrivire!";
+"close" = "Închide";
+"red" = "Roșu";
+"green" = "Verde";
+"blue" = "Albastru";
+"target" = "Țintă";
+"current" = "Curent";
+
+// MARK: - Settings
+"difficulty" = "Dificultate";
+"tolerance" = "Toleranță: %d";
+"display_options" = "Opțiuni de Afișare";
+"show_color_values" = "Arată Valorile Culorilor";
+"color_values_description" = "Activează/dezactivează codurile de culoare hexadecimale în timpul jocului";
+"target_shape" = "Forma Țintă";
+"shape_selection_description" = "Selectează forma pentru culoarea țintă";
+"support" = "Suport";
+"contact_us" = "Contactează-ne";
+"contact_description" = "Trimite-ne feedback sau raportează probleme la hello@mladenraykov.com";
+
+// MARK: - Difficulty Levels
+"difficulty_easy" = "Ușor";
+"difficulty_medium" = "Mediu";
+"difficulty_hard" = "Greu";
+"difficulty_master" = "Maestru";
+"difficulty_god" = "Dumnezeu";
+
+// MARK: - Shape Names
+"shape_circle" = "Cerc";
+"shape_heart" = "Inimă";
+"shape_star" = "Stea";
+"shape_cat" = "Pisică";
+"shape_dog" = "Câine";
+"shape_cloud" = "Nor";
+"shape_flame" = "Flacără";
+"shape_drop" = "Picătură";
+"shape_leaf" = "Frunză";
+"shape_sun" = "Soare";
+"shape_moon" = "Lună";
+"shape_snowflake" = "Fulg de Zăpadă";
+"shape_balloon" = "Balon";
+"shape_tortoise" = "Broască Țestoasă";
+"shape_hare" = "Iepure";
+
+// MARK: - How To Play
+"how_to_play_title" = "Cum să Joci";
+"how_to_play_done" = "Gata";
+"show_on_startup" = "Arată aceasta la pornire";
+
+"section_basic_rules" = "Reguli de Bază";
+"basic_rule_1" = "1. Uită-te la cercul colorat - aceasta este culoarea ta țintă";
+"basic_rule_2" = "2. Ajustează glisorele Roșu, Verde și Albastru";
+"basic_rule_3" = "3. Urmărește cum se schimbă fundalul pe măsură ce miști glisorele";
+"basic_rule_4" = "4. Încearcă să potrivești fundalul cu culoarea cercului";
+"basic_rule_5" = "5. Când culorile se potrivesc, câștigi!";
+
+"section_how_to_play" = "Cum să Joci";
+"how_to_play_1" = "• Mută glisorele sus și jos pentru a schimba valorile culorilor";
+"how_to_play_2" = "• Fiecare glisor controlează o culoare RGB (0-255)";
+"how_to_play_3" = "• Fundalul arată amestecul tău curent de culori";
+"how_to_play_4" = "• Apare un mesaj de potrivire când reușești";
+"how_to_play_5" = "• Apasă 'Închide' pentru a încerca o nouă culoare";
+
+"section_understanding_rgb" = "Înțelegerea Culorilor RGB";
+"rgb_intro_1" = "• RGB = Roșu, Verde, Albastru";
+"rgb_intro_2" = "• Amestecă aceste trei culori pentru a crea orice culoare";
+"rgb_intro_3" = "• Fiecare glisor merge de la 0 (nimic) la 255 (maxim)";
+"rgb_mixing_header" = "Exemple de amestec de culori:";
+"rgb_mixing_1" = "• Roșu + Verde = Galben";
+"rgb_mixing_2" = "• Roșu + Albastru = Magenta";
+"rgb_mixing_3" = "• Verde + Albastru = Cyan";
+"rgb_mixing_4" = "• Toate trei la maxim (255,255,255) = Alb";
+"rgb_mixing_5" = "• Toate trei la minim (0,0,0) = Negru";
+"rgb_pure_header" = "Culori pure:";
+"rgb_pure_1" = "• Roșu Pur = (255, 0, 0)";
+"rgb_pure_2" = "• Verde Pur = (0, 255, 0)";
+"rgb_pure_3" = "• Albastru Pur = (0, 0, 255)";
+"rgb_gray_header" = "Nuanțe de gri:";
+"rgb_gray_1" = "• Când toate cele trei valori sunt egale, obții gri";
+"rgb_gray_2" = "• (128, 128, 128) = Gri mediu";
+"rgb_gray_3" = "• Valori egale mai mari = gri mai deschis";
+"rgb_fun_fact" = "Fapt interesant: RGB este modul în care toate ecranele digitale creează culori - telefonul, televizorul și computerul tău folosesc toate acest sistem!";
+
+"section_difficulty_levels" = "Niveluri de Dificultate";
+"difficulty_easy_desc" = "Ușor: Foarte indulgent, excelent pentru începători";
+"difficulty_medium_desc" = "Mediu: Provocare moderată, joc echilibrat";
+"difficulty_hard_desc" = "Greu: Necesită precizie";
+"difficulty_master_desc" = "Maestru: Foarte dificil, nivel expert";
+"difficulty_god_desc" = "Dumnezeu: Aproape imposibil fără a vedea valorile!";
+"change_difficulty" = "Schimbă dificultatea în Setări";
+
+"section_tips" = "Sfaturi și Trucuri";
+"tip_1" = "• Începe prin a ajusta câte o culoare odată";
+"tip_2" = "• Uită-te la valorile hexadecimale (dacă sunt activate) pentru indicii";
+"tip_3" = "• Ascunde valorile culorilor în Setări pentru mai multă provocare";
+"tip_4" = "• Exersează mai întâi cu modul Ușor";
+"tip_5" = "• Fii atent la luminozitatea și tonul culorii";
+"tip_6" = "• Ajustările mici funcționează mai bine la niveluri mai grele";
+"environment_tips_header" = "Sfaturi despre mediu:";
+"env_tip_1" = "• Joacă în condiții bune de iluminare";
+"env_tip_2" = "• Ajustează luminozitatea ecranului pentru o mai bună precizie a culorilor";
+"env_tip_3" = "• Evită lumina directă a soarelui pe ecran (creează strălucire)";
+"env_tip_4" = "• Modul nocturn/medii întunecoase fac potrivirea mai dificilă";
+
+"section_contact" = "Contactează-ne";
+"contact_question" = "Ai întrebări, feedback sau ai găsit un bug?";
+"contact_love_to_hear" = "Ne-ar plăcea să auzim de la tine!";
+"contact_email" = "Email: hello@mladenraykov.com";
+"contact_website" = "Sau vizitează pur și simplu site-ul nostru web:";
+"contact_website_url" = "https://mladenraykov.com/";
+"contact_response" = "Răspundem la toate mesajele și apreciem contribuția ta pentru a face \"Color Lab 255\" mai bun pentru toată lumea.";
+
+// MARK: - Privacy Policy
+"privacy_policy_title" = "Politica de Confidențialitate";
+"last_updated" = "Ultima actualizare: 28 decembrie 2025";
+
+"privacy_introduction" = "Introducere";
+"privacy_intro_text" = "\"Color Lab 255\" este un joc educațional conceput pentru copii să învețe despre compoziția culorilor RGB. Luăm confidențialitatea ta în serios, mai ales când vine vorba de datele copiilor.";
+
+"privacy_data_collection" = "Colectarea Datelor";
+"privacy_data_text" = "\"Color Lab 255\" NU colectează, stochează sau transmite nicio informație personală. Aplicația:";
+"privacy_no_registration" = "Nu necesită înregistrare sau crearea unui cont";
+"privacy_no_personal_data" = "Nu colectează nume, adrese de email sau orice date personale";
+"privacy_no_analytics" = "Nu folosește servicii de analiză sau urmărire";
+"privacy_no_ads" = "Nu conține publicitate";
+"privacy_no_third_party" = "Nu partajează nicio informație cu terțe părți";
+
+"privacy_local_storage" = "Stocare Locală";
+"privacy_local_text" = "Aplicația stochează următoarele preferințe local doar pe dispozitivul tău:";
+"privacy_storage_difficulty" = "Setarea nivelului de dificultate";
+"privacy_storage_values" = "Preferința de afișare/ascundere a valorilor culorilor";
+"privacy_storage_tutorial" = "Preferința tutorialului de la prima pornire";
+"privacy_local_note" = "Aceste date nu părăsesc niciodată dispozitivul tău și nu sunt accesibile nouă sau vreunei terțe părți.";
+
+"privacy_coppa" = "Confidențialitatea Copiilor (Conformitate COPPA)";
+"privacy_coppa_text" = "\"Color Lab 255\" este conceput pentru copii și se conformează Legii privind Protecția Confidențialității Online a Copiilor (COPPA). Nu colectăm cu bună știință nicio informație personală de la copii sub 13 ani.";
+"privacy_offline" = "Aplicația este complet offline și nu necesită conexiune la internet pentru a funcționa.";
+
+"privacy_third_party_services" = "Servicii Terțe Părți";
+"privacy_third_party_text" = "\"Color Lab 255\" nu integrează niciun serviciu terț, SDK-uri sau framework-uri care colectează date.";
+
+"privacy_changes" = "Modificări la Această Politică de Confidențialitate";
+"privacy_changes_text" = "Putem actualiza Politica noastră de Confidențialitate din când în când. Te vom notifica despre orice modificări prin publicarea noii Politici de Confidențialitate în aplicație și actualizarea datei \"Ultima actualizare\".";
+
+"privacy_contact_us" = "Contactează-ne";
+"privacy_contact_text" = "Dacă ai întrebări despre această Politică de Confidențialitate, te rugăm să ne contactezi:";
+"privacy_footer" = "Folosind \"Color Lab 255\", accepți această Politică de Confidențialitate.";
+
+// MARK: - First Launch Privacy
+"welcome_title" = "Bun venit la\nColor Lab 255!";
+"welcome_subtitle" = "Înainte de a începe, te rugăm să citești Politica noastră de Confidențialitate";
+"your_privacy_matters" = "Confidențialitatea Ta Contează";
+"privacy_point_1" = "NU colectăm nicio dată personală";
+"privacy_point_2" = "Nu este nevoie de internet - complet offline";
+"privacy_point_3" = "Nu este nevoie de cont sau înregistrare";
+"privacy_point_4" = "Fără publicitate";
+"privacy_point_5" = "Conformitate COPPA - sigur pentru copii";
+"whats_stored_title" = "Ce Este Stocat pe Dispozitivul Tău";
+"whats_stored_subtitle" = "Doar preferințele tale de joc sunt salvate local:";
+"stored_item_difficulty" = "Nivel de dificultate";
+"stored_item_display" = "Preferința de afișare a valorilor culorilor";
+"stored_item_tutorial" = "Setări tutorial";
+"stored_note" = "Aceste date nu părăsesc niciodată dispozitivul tău.";
+"full_policy_text" = "Pentru detalii complete, poți citi Politica noastră completă de Confidențialitate oricând din meniul principal.";
+"continue_button" = "Continuă";
+"agree_text" = "Continuând, accepți Politica noastră de Confidențialitate";

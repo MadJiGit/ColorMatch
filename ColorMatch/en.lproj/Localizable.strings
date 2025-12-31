@@ -1,0 +1,181 @@
+/*
+  Localizable.strings (English)
+  Color Lab 255
+*/
+
+// MARK: - Main Menu
+"app_title" = "Color Lab 255";
+"app_subtitle" = "Learn RGB Colors!";
+"play_game" = "Play Game";
+"settings" = "Settings";
+"privacy_policy" = "Privacy Policy";
+"developed_by" = "Developed by MadJi";
+
+// MARK: - Game View
+"game_title" = "Color Match";
+"match" = "Match!";
+"close" = "Close";
+"red" = "Red";
+"green" = "Green";
+"blue" = "Blue";
+"target" = "Target";
+"current" = "Current";
+
+// MARK: - Settings
+"difficulty" = "Difficulty";
+"tolerance" = "Tolerance: %d";
+"display_options" = "Display Options";
+"show_color_values" = "Show Color Values";
+"color_values_description" = "Toggle to show/hide hex color codes during gameplay";
+"target_shape" = "Target Shape";
+"shape_selection_description" = "Select the shape for the target color";
+"support" = "Support";
+"contact_us" = "Contact Us";
+"contact_description" = "Send us feedback or report issues at hello@mladenraykov.com";
+
+// MARK: - Difficulty Levels
+"difficulty_easy" = "Easy";
+"difficulty_medium" = "Medium";
+"difficulty_hard" = "Hard";
+"difficulty_master" = "Master";
+"difficulty_god" = "God";
+
+// MARK: - Shape Names
+"shape_circle" = "Circle";
+"shape_heart" = "Heart";
+"shape_star" = "Star";
+"shape_cat" = "Cat";
+"shape_dog" = "Dog";
+"shape_cloud" = "Cloud";
+"shape_flame" = "Flame";
+"shape_drop" = "Drop";
+"shape_leaf" = "Leaf";
+"shape_sun" = "Sun";
+"shape_moon" = "Moon";
+"shape_snowflake" = "Snowflake";
+"shape_balloon" = "Balloon";
+"shape_tortoise" = "Tortoise";
+"shape_hare" = "Hare";
+
+// MARK: - How To Play
+"how_to_play_title" = "How To Play";
+"how_to_play_done" = "Done";
+"show_on_startup" = "Show this on startup";
+
+"section_basic_rules" = "Basic Rules";
+"basic_rule_1" = "1. Look at the colored circle - this is your target color";
+"basic_rule_2" = "2. Adjust the Red, Green, and Blue sliders";
+"basic_rule_3" = "3. Watch the background change as you move the sliders";
+"basic_rule_4" = "4. Try to match the background to the circle color";
+"basic_rule_5" = "5. When colors match, you win!";
+
+"section_how_to_play" = "How to Play";
+"how_to_play_1" = "• Move sliders up and down to change color values";
+"how_to_play_2" = "• Each slider controls one RGB color (0-255)";
+"how_to_play_3" = "• The background shows your current color mix";
+"how_to_play_4" = "• Match popup appears when you succeed";
+"how_to_play_5" = "• Tap 'Close' to try a new color";
+
+"section_understanding_rgb" = "Understanding RGB Colors";
+"rgb_intro_1" = "• RGB = Red, Green, Blue";
+"rgb_intro_2" = "• Mix these three colors to create any color";
+"rgb_intro_3" = "• Each slider goes from 0 (none) to 255 (maximum)";
+"rgb_mixing_header" = "Color mixing examples:";
+"rgb_mixing_1" = "• Red + Green = Yellow";
+"rgb_mixing_2" = "• Red + Blue = Magenta";
+"rgb_mixing_3" = "• Green + Blue = Cyan";
+"rgb_mixing_4" = "• All three at max (255,255,255) = White";
+"rgb_mixing_5" = "• All three at min (0,0,0) = Black";
+"rgb_pure_header" = "Pure colors:";
+"rgb_pure_1" = "• Pure Red = (255, 0, 0)";
+"rgb_pure_2" = "• Pure Green = (0, 255, 0)";
+"rgb_pure_3" = "• Pure Blue = (0, 0, 255)";
+"rgb_gray_header" = "Shades of gray:";
+"rgb_gray_1" = "• When all three values are equal, you get gray";
+"rgb_gray_2" = "• (128, 128, 128) = Medium gray";
+"rgb_gray_3" = "• Higher equal values = lighter gray";
+"rgb_fun_fact" = "Fun fact: RGB is how all digital screens create colors - your phone, TV, and computer all use this system!";
+
+"section_difficulty_levels" = "Difficulty Levels";
+"difficulty_easy_desc" = "Easy: Very forgiving, great for beginners";
+"difficulty_medium_desc" = "Medium: Moderate challenge, balanced gameplay";
+"difficulty_hard_desc" = "Hard: Requires precision";
+"difficulty_master_desc" = "Master: Very difficult, expert level";
+"difficulty_god_desc" = "God: Nearly impossible without seeing values!";
+"change_difficulty" = "Change difficulty in Settings";
+
+"section_tips" = "Tips & Tricks";
+"tip_1" = "• Start by adjusting one color at a time";
+"tip_2" = "• Look at the hex values (if enabled) for hints";
+"tip_3" = "• Hide color values in Settings for more challenge";
+"tip_4" = "• Practice with Easy mode first";
+"tip_5" = "• Pay attention to color brightness and tone";
+"tip_6" = "• Small adjustments work better on harder levels";
+"environment_tips_header" = "Environment tips:";
+"env_tip_1" = "• Play in good lighting conditions";
+"env_tip_2" = "• Adjust screen brightness for better color accuracy";
+"env_tip_3" = "• Avoid direct sunlight on screen (creates glare)";
+"env_tip_4" = "• Night mode/dark surroundings make matching harder";
+
+"section_contact" = "Contact Us";
+"contact_question" = "Have questions, feedback, or found a bug?";
+"contact_love_to_hear" = "We'd love to hear from you!";
+"contact_email" = "Email: hello@mladenraykov.com";
+"contact_website" = "Or just visit our website:";
+"contact_website_url" = "https://mladenraykov.com/";
+"contact_response" = "We respond to all messages and appreciate your input in making \"Color Lab 255\" better for everyone.";
+
+// MARK: - Privacy Policy
+"privacy_policy_title" = "Privacy Policy";
+"last_updated" = "Last Updated: December 28, 2025";
+
+"privacy_introduction" = "Introduction";
+"privacy_intro_text" = "\"Color Lab 255\" is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.";
+
+"privacy_data_collection" = "Data Collection";
+"privacy_data_text" = "\"Color Lab 255\" does NOT collect, store, or transmit any personal information. The app:";
+"privacy_no_registration" = "Does not require registration or account creation";
+"privacy_no_personal_data" = "Does not collect names, email addresses, or any personal data";
+"privacy_no_analytics" = "Does not use analytics or tracking services";
+"privacy_no_ads" = "Does not contain advertisements";
+"privacy_no_third_party" = "Does not share any information with third parties";
+
+"privacy_local_storage" = "Local Storage";
+"privacy_local_text" = "The app stores the following preferences locally on your device only:";
+"privacy_storage_difficulty" = "Difficulty level setting";
+"privacy_storage_values" = "Show/hide color values preference";
+"privacy_storage_tutorial" = "First launch tutorial preference";
+"privacy_local_note" = "This data never leaves your device and is not accessible to us or any third party.";
+
+"privacy_coppa" = "Children's Privacy (COPPA Compliance)";
+"privacy_coppa_text" = "\"Color Lab 255\" is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.";
+"privacy_offline" = "The app is completely offline and does not require internet connection to function.";
+
+"privacy_third_party_services" = "Third-Party Services";
+"privacy_third_party_text" = "\"Color Lab 255\" does not integrate with any third-party services, SDKs, or frameworks that collect data.";
+
+"privacy_changes" = "Changes to This Privacy Policy";
+"privacy_changes_text" = "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the app and updating the \"Last Updated\" date.";
+
+"privacy_contact_us" = "Contact Us";
+"privacy_contact_text" = "If you have any questions about this Privacy Policy, please contact us:";
+"privacy_footer" = "By using \"Color Lab 255\", you agree to this Privacy Policy.";
+
+// MARK: - First Launch Privacy
+"welcome_title" = "Welcome to\nColor Lab 255!";
+"welcome_subtitle" = "Before you start, please review our Privacy Policy";
+"your_privacy_matters" = "Your Privacy Matters";
+"privacy_point_1" = "We do NOT collect any personal data";
+"privacy_point_2" = "No internet required - completely offline";
+"privacy_point_3" = "No account or registration needed";
+"privacy_point_4" = "No advertisements";
+"privacy_point_5" = "COPPA compliant - safe for children";
+"whats_stored_title" = "What's Stored on Your Device";
+"whats_stored_subtitle" = "Only your game preferences are saved locally:";
+"stored_item_difficulty" = "Difficulty level";
+"stored_item_display" = "Color values display preference";
+"stored_item_tutorial" = "Tutorial settings";
+"stored_note" = "This data never leaves your device.";
+"full_policy_text" = "For complete details, you can read our full Privacy Policy anytime from the main menu.";
+"continue_button" = "Continue";
+"agree_text" = "By continuing, you agree to our Privacy Policy";

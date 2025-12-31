@@ -26,21 +26,21 @@ enum TargetShape: String, CaseIterable {
 
     var displayName: String {
         switch self {
-        case .circle: return "Circle"
-        case .heart: return "Heart"
-        case .star: return "Star"
-        case .cat: return "Cat"
-        case .dog: return "Dog"
-        case .cloud: return "Cloud"
-        case .flame: return "Flame"
-        case .drop: return "Drop"
-        case .leaf: return "Leaf"
-        case .sun: return "Sun"
-        case .moon: return "Moon"
-        case .snowflake: return "Snowflake"
-        case .balloon: return "Balloon"
-        case .tortoise: return "Tortoise"
-        case .hare: return "Hare"
+        case .circle: return String(localized: "shape_circle")
+        case .heart: return String(localized: "shape_heart")
+        case .star: return String(localized: "shape_star")
+        case .cat: return String(localized: "shape_cat")
+        case .dog: return String(localized: "shape_dog")
+        case .cloud: return String(localized: "shape_cloud")
+        case .flame: return String(localized: "shape_flame")
+        case .drop: return String(localized: "shape_drop")
+        case .leaf: return String(localized: "shape_leaf")
+        case .sun: return String(localized: "shape_sun")
+        case .moon: return String(localized: "shape_moon")
+        case .snowflake: return String(localized: "shape_snowflake")
+        case .balloon: return String(localized: "shape_balloon")
+        case .tortoise: return String(localized: "shape_tortoise")
+        case .hare: return String(localized: "shape_hare")
         }
     }
 }
@@ -51,6 +51,16 @@ enum Difficulty: String, CaseIterable {
     case hard = "Hard"
     case master = "Master"
     case god = "God"
+
+    var displayName: String {
+        switch self {
+        case .easy: return String(localized: "difficulty_easy")
+        case .medium: return String(localized: "difficulty_medium")
+        case .hard: return String(localized: "difficulty_hard")
+        case .master: return String(localized: "difficulty_master")
+        case .god: return String(localized: "difficulty_god")
+        }
+    }
 
     var tolerance: Double {
         switch self {

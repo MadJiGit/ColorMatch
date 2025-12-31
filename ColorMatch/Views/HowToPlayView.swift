@@ -19,97 +19,98 @@ struct HowToPlayView: View {
     @ObservedObject var settings = SettingsManager.shared
     @State private var sections: [HowToPlaySection] = [
         HowToPlaySection(
-            title: "Basic Rules",
+            title: "section_basic_rules",
             content: [
-                "1. Look at the colored circle - this is your target color",
-                "2. Adjust the Red, Green, and Blue sliders",
-                "3. Watch the background change as you move the sliders",
-                "4. Try to match the background to the circle color",
-                "5. When colors match, you win!"
+                "basic_rule_1",
+                "basic_rule_2",
+                "basic_rule_3",
+                "basic_rule_4",
+                "basic_rule_5"
             ],
             isExpanded: false
         ),
         HowToPlaySection(
-            title: "How to Play",
+            title: "section_how_to_play",
             content: [
-                "• Move sliders up and down to change color values",
-                "• Each slider controls one RGB color (0-255)",
-                "• The background shows your current color mix",
-                "• Match popup appears when you succeed",
-                "• Tap 'Close' to try a new color"
+                "how_to_play_1",
+                "how_to_play_2",
+                "how_to_play_3",
+                "how_to_play_4",
+                "how_to_play_5"
             ],
             isExpanded: false
         ),
         HowToPlaySection(
-            title: "Understanding RGB Colors",
+            title: "section_understanding_rgb",
             content: [
-                "• RGB = Red, Green, Blue",
-                "• Mix these three colors to create any color",
-                "• Each slider goes from 0 (none) to 255 (maximum)",
+                "rgb_intro_1",
+                "rgb_intro_2",
+                "rgb_intro_3",
                 "",
-                "Color mixing examples:",
-                "• Red + Green = Yellow",
-                "• Red + Blue = Magenta",
-                "• Green + Blue = Cyan",
-                "• All three at max (255,255,255) = White",
-                "• All three at min (0,0,0) = Black",
+                "rgb_mixing_header",
+                "rgb_mixing_1",
+                "rgb_mixing_2",
+                "rgb_mixing_3",
+                "rgb_mixing_4",
+                "rgb_mixing_5",
                 "",
-                "Pure colors:",
-                "• Pure Red = (255, 0, 0)",
-                "• Pure Green = (0, 255, 0)",
-                "• Pure Blue = (0, 0, 255)",
+                "rgb_pure_header",
+                "rgb_pure_1",
+                "rgb_pure_2",
+                "rgb_pure_3",
                 "",
-                "Shades of gray:",
-                "• When all three values are equal, you get gray",
-                "• (128, 128, 128) = Medium gray",
-                "• Higher equal values = lighter gray",
+                "rgb_gray_header",
+                "rgb_gray_1",
+                "rgb_gray_2",
+                "rgb_gray_3",
                 "",
-                "Fun fact: RGB is how all digital screens create colors - your phone, TV, and computer all use this system!"
+                "rgb_fun_fact"
             ],
             isExpanded: false
         ),
         HowToPlaySection(
-            title: "Difficulty Levels",
+            title: "section_difficulty_levels",
             content: [
-                "Easy: Very forgiving, great for beginners",
-                "Medium: Moderate challenge, balanced gameplay",
-                "Hard: Requires precision",
-                "Master: Very difficult, expert level",
-                "God: Nearly impossible without seeing values!",
+                "difficulty_easy_desc",
+                "difficulty_medium_desc",
+                "difficulty_hard_desc",
+                "difficulty_master_desc",
+                "difficulty_god_desc",
                 "",
-                "Change difficulty in Settings"
+                "change_difficulty"
             ],
             isExpanded: false
         ),
         HowToPlaySection(
-            title: "Tips & Tricks",
+            title: "section_tips",
             content: [
-                "• Start by adjusting one color at a time",
-                "• Look at the hex values (if enabled) for hints",
-                "• Hide color values in Settings for more challenge",
-                "• Practice with Easy mode first",
-                "• Pay attention to color brightness and tone",
-                "• Small adjustments work better on harder levels",
+                "tip_1",
+                "tip_2",
+                "tip_3",
+                "tip_4",
+                "tip_5",
+                "tip_6",
                 "",
-                "Environment tips:",
-                "• Play in good lighting conditions",
-                "• Adjust screen brightness for better color accuracy",
-                "• Avoid direct sunlight on screen (creates glare)",
-                "• Night mode/dark surroundings make matching harder"
+                "environment_tips_header",
+                "env_tip_1",
+                "env_tip_2",
+                "env_tip_3",
+                "env_tip_4"
             ],
             isExpanded: false
         ),
         HowToPlaySection(
-            title: "Contact Us",
+            title: "section_contact",
             content: [
-                "Have questions, feedback, or found a bug?",
-                "We'd love to hear from you!",
+                "contact_question",
+                "contact_love_to_hear",
                 "",
-                "Email: hello@mladenraykov.com",
+                "contact_email",
                 "",
-                "Or just visit our website:", "https://mladenraykov.com/",
+                "contact_website",
+                "contact_website_url",
                 "",
-                "We respond to all messages and appreciate your input in making ColorMatch better for everyone."
+                "contact_response"
             ],
             isExpanded: false
         )
@@ -128,7 +129,7 @@ struct HowToPlayView: View {
                                 }
                             }) {
                                 HStack {
-                                    Text(sections[index].title)
+                                    Text(LocalizedStringKey(sections[index].title))
                                         .font(.headline)
                                         .foregroundColor(.primary)
 
@@ -146,7 +147,7 @@ struct HowToPlayView: View {
                             if sections[index].isExpanded {
                                 VStack(alignment: .leading, spacing: 8) {
                                     ForEach(sections[index].content, id: \.self) { line in
-                                        Text(line)
+                                        Text(LocalizedStringKey(line))
                                             .font(.body)
                                             .foregroundColor(.primary)
                                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -162,18 +163,18 @@ struct HowToPlayView: View {
 
                     // Show on startup toggle
                     VStack(spacing: 0) {
-                        Toggle("Show this on startup", isOn: $settings.showHowToPlayOnLaunch)
+                        Toggle(String(localized: "show_on_startup"), isOn: $settings.showHowToPlayOnLaunch)
                             .padding()
                             .background(Color(.secondarySystemBackground))
                     }
                     .padding(.top, 20)
                 }
             }
-            .navigationTitle("How To Play")
+            .navigationTitle(String(localized: "how_to_play_title"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") {
+                    Button(String(localized: "how_to_play_done")) {
                         dismiss()
                     }
                 }

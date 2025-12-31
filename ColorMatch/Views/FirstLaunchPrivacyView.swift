@@ -16,12 +16,12 @@ struct FirstLaunchPrivacyView: View {
             VStack(spacing: 0) {
                 // Header
                 VStack(spacing: 16) {
-                    Text("Welcome to\nColor Lab 255!")
+                    Text("welcome_title")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
 
-                    Text("Before you start, please review our Privacy Policy")
+                    Text("welcome_subtitle")
                         .font(.body)
                         .foregroundColor(.secondary)
                         .multilineTextAlignment(.center)
@@ -34,35 +34,35 @@ struct FirstLaunchPrivacyView: View {
                 VStack(alignment: .leading, spacing: 20) {
                     // Key Points
                     VStack(alignment: .leading, spacing: 16) {
-                        Text("Your Privacy Matters")
+                        Text("your_privacy_matters")
                             .font(.title2)
                             .fontWeight(.semibold)
 
-                        privacyPoint(icon: "lock.shield.fill", text: "We do NOT collect any personal data")
-                        privacyPoint(icon: "wifi.slash", text: "No internet required - completely offline")
-                        privacyPoint(icon: "person.crop.circle.badge.xmark", text: "No account or registration needed")
-                        privacyPoint(icon: "dollarsign.circle.fill", text: "No advertisements")
-                        privacyPoint(icon: "hand.raised.fill", text: "COPPA compliant - safe for children")
+                        privacyPoint(icon: "lock.shield.fill", text: String(localized: "privacy_point_1"))
+                        privacyPoint(icon: "wifi.slash", text: String(localized: "privacy_point_2"))
+                        privacyPoint(icon: "person.crop.circle.badge.xmark", text: String(localized: "privacy_point_3"))
+                        privacyPoint(icon: "dollarsign.circle.fill", text: String(localized: "privacy_point_4"))
+                        privacyPoint(icon: "hand.raised.fill", text: String(localized: "privacy_point_5"))
                     }
 
                     Divider()
 
                     // What we store locally
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("What's Stored on Your Device")
+                        Text("whats_stored_title")
                             .font(.headline)
 
-                        Text("Only your game preferences are saved locally:")
+                        Text("whats_stored_subtitle")
                             .font(.body)
                             .foregroundColor(.secondary)
 
                         VStack(alignment: .leading, spacing: 8) {
-                            localStorageItem("Difficulty level")
-                            localStorageItem("Color values display preference")
-                            localStorageItem("Tutorial settings")
+                            localStorageItem(String(localized: "stored_item_difficulty"))
+                            localStorageItem(String(localized: "stored_item_display"))
+                            localStorageItem(String(localized: "stored_item_tutorial"))
                         }
 
-                        Text("This data never leaves your device.")
+                        Text("stored_note")
                             .font(.caption)
                             .foregroundColor(.secondary)
                             .italic()
@@ -72,7 +72,7 @@ struct FirstLaunchPrivacyView: View {
 
                     // Full Policy Link
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("For complete details, you can read our full Privacy Policy anytime from the main menu.")
+                        Text("full_policy_text")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
@@ -86,7 +86,7 @@ struct FirstLaunchPrivacyView: View {
                         settings.hasAcceptedPrivacyPolicy = true
                         dismiss()
                     }) {
-                        Text("Continue")
+                        Text("continue_button")
                             .font(.headline)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
@@ -97,7 +97,7 @@ struct FirstLaunchPrivacyView: View {
                     }
                     .padding(.horizontal, 30)
 
-                    Text("By continuing, you agree to our Privacy Policy")
+                    Text("agree_text")
                         .font(.caption2)
                         .foregroundColor(.secondary)
                         .multilineTextAlignment(.center)

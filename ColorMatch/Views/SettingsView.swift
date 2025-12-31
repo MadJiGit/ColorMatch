@@ -13,24 +13,24 @@ struct SettingsView: View {
 
     var body: some View {
         Form {
-            Section(header: Text("Difficulty")) {
+            Section(header: Text("difficulty")) {
                 Picker("Difficulty Level", selection: $settings.difficulty) {
                     ForEach(Difficulty.allCases, id: \.self) { difficulty in
-                        Text(difficulty.rawValue).tag(difficulty)
+                        Text(difficulty.displayName).tag(difficulty)
                     }
                 }
                 .pickerStyle(.segmented)
 
-                Text("Tolerance: \(Int(settings.difficulty.tolerance))")
+                Text(String(format: NSLocalizedString("tolerance", comment: ""), Int(settings.difficulty.tolerance)))
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
 
-            Section(header: Text("Display Options")) {
-                Toggle("Show Color Values", isOn: $settings.showColorValues)
+            Section(header: Text("display_options")) {
+                Toggle(String(localized: "show_color_values"), isOn: $settings.showColorValues)
                     .tint(.blue)
 
-                Text("Toggle to show/hide hex color codes during gameplay")
+                Text("color_values_description")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
@@ -43,7 +43,7 @@ struct SettingsView: View {
                     }
                 }) {
                     HStack {
-                        Text("Target Shape")
+                        Text("target_shape")
                             .font(.headline)
                             .foregroundColor(.primary)
 
@@ -91,16 +91,16 @@ struct SettingsView: View {
                     }
                     .padding(.vertical, 8)
 
-                    Text("Select the shape for the target color")
+                    Text("shape_selection_description")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
             }
 
-            Section(header: Text("Support")) {
+            Section(header: Text("support")) {
                 Link(destination: URL(string: "mailto:hello@mladenraykov.com")!) {
                     HStack {
-                        Text("Contact Us")
+                        Text("contact_us")
                             .foregroundColor(.primary)
                         Spacer()
                         Image(systemName: "envelope")
@@ -108,12 +108,12 @@ struct SettingsView: View {
                     }
                 }
 
-                Text("Send us feedback or report issues at hello@mladenraykov.com")
+                Text("contact_description")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
         }
-        .navigationTitle("Settings")
+        .navigationTitle(String(localized: "settings"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }

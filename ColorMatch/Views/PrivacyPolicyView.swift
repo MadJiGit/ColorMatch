@@ -13,12 +13,12 @@ struct PrivacyPolicyView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                Text("Privacy Policy")
+                Text("privacy_policy_title")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding(.bottom, 10)
 
-                Text("Last Updated: December 28, 2025")
+                Text("last_updated")
                     .font(.caption)
                     .foregroundColor(.secondary)
 
@@ -26,93 +26,93 @@ struct PrivacyPolicyView: View {
 
                 // Introduction
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Introduction")
+                    Text("privacy_introduction")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("\"Color Lab 255\" is an educational game designed for children to learn about RGB color composition. We take your privacy seriously, especially when it comes to children's data.")
+                    Text("privacy_intro_text")
                         .font(.body)
                 }
 
                 // Data Collection
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Data Collection")
+                    Text("privacy_data_collection")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("\"Color Lab 255\" does NOT collect, store, or transmit any personal information. The app:")
+                    Text("privacy_data_text")
                         .font(.body)
 
                     VStack(alignment: .leading, spacing: 8) {
-                        bulletPoint("Does not require registration or account creation")
-                        bulletPoint("Does not collect names, email addresses, or any personal data")
-                        bulletPoint("Does not use analytics or tracking services")
-                        bulletPoint("Does not contain advertisements")
-                        bulletPoint("Does not share any information with third parties")
+                        bulletPoint(String(localized: "privacy_no_registration"))
+                        bulletPoint(String(localized: "privacy_no_personal_data"))
+                        bulletPoint(String(localized: "privacy_no_analytics"))
+                        bulletPoint(String(localized: "privacy_no_ads"))
+                        bulletPoint(String(localized: "privacy_no_third_party"))
                     }
                 }
 
                 // Local Storage
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Local Storage")
+                    Text("privacy_local_storage")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("The app stores the following preferences locally on your device only:")
+                    Text("privacy_local_text")
                         .font(.body)
 
                     VStack(alignment: .leading, spacing: 8) {
-                        bulletPoint("Difficulty level setting")
-                        bulletPoint("Show/hide color values preference")
-                        bulletPoint("First launch tutorial preference")
+                        bulletPoint(String(localized: "privacy_storage_difficulty"))
+                        bulletPoint(String(localized: "privacy_storage_values"))
+                        bulletPoint(String(localized: "privacy_storage_tutorial"))
                     }
 
-                    Text("This data never leaves your device and is not accessible to us or any third party.")
+                    Text("privacy_local_note")
                         .font(.body)
                         .italic()
                 }
 
                 // Children's Privacy
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Children's Privacy (COPPA Compliance)")
+                    Text("privacy_coppa")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("\"Color Lab 255\" is designed for children and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect any personal information from children under 13.")
+                    Text("privacy_coppa_text")
                         .font(.body)
 
-                    Text("The app is completely offline and does not require internet connection to function.")
+                    Text("privacy_offline")
                         .font(.body)
                         .fontWeight(.medium)
                 }
 
                 // Third-Party Services
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Third-Party Services")
+                    Text("privacy_third_party_services")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("\"Color Lab 255\" does not integrate with any third-party services, SDKs, or frameworks that collect data.")
+                    Text("privacy_third_party_text")
                         .font(.body)
                 }
 
                 // Changes to Privacy Policy
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Changes to This Privacy Policy")
+                    Text("privacy_changes")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the app and updating the \"Last Updated\" date.")
+                    Text("privacy_changes_text")
                         .font(.body)
                 }
 
                 // Contact
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Contact Us")
+                    Text("privacy_contact_us")
                         .font(.title2)
                         .fontWeight(.semibold)
 
-                    Text("If you have any questions about this Privacy Policy, please contact us:")
+                    Text("privacy_contact_text")
                         .font(.body)
 
                     Link(destination: URL(string: "mailto:hello@mladenraykov.com")!) {
@@ -137,14 +137,14 @@ struct PrivacyPolicyView: View {
                 Divider()
 
                 // Footer
-                Text("By using \"Color Lab 255\", you agree to this Privacy Policy.")
+                Text("privacy_footer")
                     .font(.caption)
                     .foregroundColor(.secondary)
                     .padding(.top, 10)
             }
             .padding()
         }
-        .navigationTitle("Privacy Policy")
+        .navigationTitle(String(localized: "privacy_policy_title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 

@@ -71,8 +71,10 @@ struct ColorSliderView: View {
 
             // Label at bottom
             Text(label)
-                .font(.headline)
+                .font(.system(size: 15, weight: .semibold))
                 .foregroundColor(color)
+                .lineLimit(1)
+                .frame(width: 70)
                 .padding(.top, 20)
         }
     }

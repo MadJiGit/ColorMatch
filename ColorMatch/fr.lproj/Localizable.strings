@@ -1,0 +1,181 @@
+/*
+  Localizable.strings (French)
+  Color Lab 255
+*/
+
+// MARK: - Main Menu
+"app_title" = "Color Lab 255";
+"app_subtitle" = "Apprends les Couleurs RVB!";
+"play_game" = "Jouer";
+"settings" = "Paramètres";
+"privacy_policy" = "Politique de Confidentialité";
+"developed_by" = "Développé par MadJi";
+
+// MARK: - Game View
+"game_title" = "Correspondance de Couleur";
+"match" = "Correspondance!";
+"close" = "Fermer";
+"red" = "Rouge";
+"green" = "Vert";
+"blue" = "Bleu";
+"target" = "Cible";
+"current" = "Actuel";
+
+// MARK: - Settings
+"difficulty" = "Difficulté";
+"tolerance" = "Tolérance: %d";
+"display_options" = "Options d'Affichage";
+"show_color_values" = "Afficher les Valeurs de Couleur";
+"color_values_description" = "Activer/désactiver les codes de couleur hexadécimaux pendant le jeu";
+"target_shape" = "Forme Cible";
+"shape_selection_description" = "Sélectionne la forme pour la couleur cible";
+"support" = "Support";
+"contact_us" = "Contactez-nous";
+"contact_description" = "Envoyez-nous vos commentaires ou signalez des problèmes à hello@mladenraykov.com";
+
+// MARK: - Difficulty Levels
+"difficulty_easy" = "Facile";
+"difficulty_medium" = "Moyen";
+"difficulty_hard" = "Difficile";
+"difficulty_master" = "Maître";
+"difficulty_god" = "Dieu";
+
+// MARK: - Shape Names
+"shape_circle" = "Cercle";
+"shape_heart" = "Cœur";
+"shape_star" = "Étoile";
+"shape_cat" = "Chat";
+"shape_dog" = "Chien";
+"shape_cloud" = "Nuage";
+"shape_flame" = "Flamme";
+"shape_drop" = "Goutte";
+"shape_leaf" = "Feuille";
+"shape_sun" = "Soleil";
+"shape_moon" = "Lune";
+"shape_snowflake" = "Flocon de Neige";
+"shape_balloon" = "Ballon";
+"shape_tortoise" = "Tortue";
+"shape_hare" = "Lièvre";
+
+// MARK: - How To Play
+"how_to_play_title" = "Comment Jouer";
+"how_to_play_done" = "Terminé";
+"show_on_startup" = "Afficher ceci au démarrage";
+
+"section_basic_rules" = "Règles de Base";
+"basic_rule_1" = "1. Regarde le cercle coloré - c'est ta couleur cible";
+"basic_rule_2" = "2. Ajuste les curseurs Rouge, Vert et Bleu";
+"basic_rule_3" = "3. Observe comment l'arrière-plan change en déplaçant les curseurs";
+"basic_rule_4" = "4. Essaie de faire correspondre l'arrière-plan à la couleur du cercle";
+"basic_rule_5" = "5. Quand les couleurs correspondent, tu gagnes!";
+
+"section_how_to_play" = "Comment Jouer";
+"how_to_play_1" = "• Déplace les curseurs vers le haut et vers le bas pour changer les valeurs de couleur";
+"how_to_play_2" = "• Chaque curseur contrôle une couleur RVB (0-255)";
+"how_to_play_3" = "• L'arrière-plan montre ton mélange de couleur actuel";
+"how_to_play_4" = "• Un message de correspondance apparaît quand tu réussis";
+"how_to_play_5" = "• Appuie sur 'Fermer' pour essayer une nouvelle couleur";
+
+"section_understanding_rgb" = "Comprendre les Couleurs RVB";
+"rgb_intro_1" = "• RVB = Rouge, Vert, Bleu";
+"rgb_intro_2" = "• Mélange ces trois couleurs pour créer n'importe quelle couleur";
+"rgb_intro_3" = "• Chaque curseur va de 0 (aucun) à 255 (maximum)";
+"rgb_mixing_header" = "Exemples de mélange de couleurs:";
+"rgb_mixing_1" = "• Rouge + Vert = Jaune";
+"rgb_mixing_2" = "• Rouge + Bleu = Magenta";
+"rgb_mixing_3" = "• Vert + Bleu = Cyan";
+"rgb_mixing_4" = "• Les trois au maximum (255,255,255) = Blanc";
+"rgb_mixing_5" = "• Les trois au minimum (0,0,0) = Noir";
+"rgb_pure_header" = "Couleurs pures:";
+"rgb_pure_1" = "• Rouge Pur = (255, 0, 0)";
+"rgb_pure_2" = "• Vert Pur = (0, 255, 0)";
+"rgb_pure_3" = "• Bleu Pur = (0, 0, 255)";
+"rgb_gray_header" = "Nuances de gris:";
+"rgb_gray_1" = "• Quand les trois valeurs sont égales, tu obtiens du gris";
+"rgb_gray_2" = "• (128, 128, 128) = Gris moyen";
+"rgb_gray_3" = "• Valeurs égales plus élevées = gris plus clair";
+"rgb_fun_fact" = "Fait amusant: RVB est la façon dont tous les écrans numériques créent des couleurs - ton téléphone, ta TV et ton ordinateur utilisent tous ce système!";
+
+"section_difficulty_levels" = "Niveaux de Difficulté";
+"difficulty_easy_desc" = "Facile: Très indulgent, excellent pour les débutants";
+"difficulty_medium_desc" = "Moyen: Défi modéré, jeu équilibré";
+"difficulty_hard_desc" = "Difficile: Nécessite de la précision";
+"difficulty_master_desc" = "Maître: Très difficile, niveau expert";
+"difficulty_god_desc" = "Dieu: Presque impossible sans voir les valeurs!";
+"change_difficulty" = "Change la difficulté dans Paramètres";
+
+"section_tips" = "Astuces et Conseils";
+"tip_1" = "• Commence en ajustant une couleur à la fois";
+"tip_2" = "• Regarde les valeurs hexadécimales (si activées) pour des indices";
+"tip_3" = "• Cache les valeurs de couleur dans Paramètres pour plus de défi";
+"tip_4" = "• Pratique d'abord avec le mode Facile";
+"tip_5" = "• Fais attention à la luminosité et au ton de la couleur";
+"tip_6" = "• Les petits ajustements fonctionnent mieux aux niveaux plus difficiles";
+"environment_tips_header" = "Conseils d'environnement:";
+"env_tip_1" = "• Joue dans de bonnes conditions d'éclairage";
+"env_tip_2" = "• Ajuste la luminosité de l'écran pour une meilleure précision des couleurs";
+"env_tip_3" = "• Évite la lumière directe du soleil sur l'écran (crée des reflets)";
+"env_tip_4" = "• Le mode nuit/environnements sombres rendent la correspondance plus difficile";
+
+"section_contact" = "Contactez-nous";
+"contact_question" = "Tu as des questions, des commentaires ou tu as trouvé un bug?";
+"contact_love_to_hear" = "Nous aimerions avoir de tes nouvelles!";
+"contact_email" = "Email: hello@mladenraykov.com";
+"contact_website" = "Ou visite simplement notre site web:";
+"contact_website_url" = "https://mladenraykov.com/";
+"contact_response" = "Nous répondons à tous les messages et apprécions ta contribution pour rendre \"Color Lab 255\" meilleur pour tous.";
+
+// MARK: - Privacy Policy
+"privacy_policy_title" = "Politique de Confidentialité";
+"last_updated" = "Dernière mise à jour: 28 décembre 2025";
+
+"privacy_introduction" = "Introduction";
+"privacy_intro_text" = "\"Color Lab 255\" est un jeu éducatif conçu pour les enfants pour apprendre la composition des couleurs RVB. Nous prenons ta vie privée au sérieux, surtout quand il s'agit de données d'enfants.";
+
+"privacy_data_collection" = "Collecte de Données";
+"privacy_data_text" = "\"Color Lab 255\" NE collecte, stocke ou transmet AUCUNE information personnelle. L'application:";
+"privacy_no_registration" = "Ne nécessite pas d'inscription ou de création de compte";
+"privacy_no_personal_data" = "Ne collecte pas de noms, adresses email ou toute donnée personnelle";
+"privacy_no_analytics" = "N'utilise pas de services d'analyse ou de suivi";
+"privacy_no_ads" = "Ne contient pas de publicité";
+"privacy_no_third_party" = "Ne partage aucune information avec des tiers";
+
+"privacy_local_storage" = "Stockage Local";
+"privacy_local_text" = "L'application stocke les préférences suivantes localement sur ton appareil uniquement:";
+"privacy_storage_difficulty" = "Paramètre du niveau de difficulté";
+"privacy_storage_values" = "Préférence d'affichage/masquage des valeurs de couleur";
+"privacy_storage_tutorial" = "Préférence du tutoriel de premier lancement";
+"privacy_local_note" = "Ces données ne quittent jamais ton appareil et ne sont pas accessibles à nous ou à un tiers.";
+
+"privacy_coppa" = "Confidentialité des Enfants (Conformité COPPA)";
+"privacy_coppa_text" = "\"Color Lab 255\" est conçu pour les enfants et se conforme à la loi sur la protection de la vie privée en ligne des enfants (COPPA). Nous ne collectons sciemment aucune information personnelle d'enfants de moins de 13 ans.";
+"privacy_offline" = "L'application est complètement hors ligne et ne nécessite pas de connexion Internet pour fonctionner.";
+
+"privacy_third_party_services" = "Services Tiers";
+"privacy_third_party_text" = "\"Color Lab 255\" n'intègre aucun service tiers, SDK ou frameworks qui collectent des données.";
+
+"privacy_changes" = "Modifications de cette Politique de Confidentialité";
+"privacy_changes_text" = "Nous pouvons mettre à jour notre Politique de Confidentialité de temps en temps. Nous te notifierons de tout changement en publiant la nouvelle Politique de Confidentialité dans l'application et en mettant à jour la date \"Dernière mise à jour\".";
+
+"privacy_contact_us" = "Contactez-nous";
+"privacy_contact_text" = "Si tu as des questions sur cette Politique de Confidentialité, contacte-nous:";
+"privacy_footer" = "En utilisant \"Color Lab 255\", tu acceptes cette Politique de Confidentialité.";
+
+// MARK: - First Launch Privacy
+"welcome_title" = "Bienvenue dans\nColor Lab 255!";
+"welcome_subtitle" = "Avant de commencer, veuillez consulter notre Politique de Confidentialité";
+"your_privacy_matters" = "Ta Vie Privée Compte";
+"privacy_point_1" = "Nous NE collectons AUCUNE donnée personnelle";
+"privacy_point_2" = "Pas d'Internet requis - complètement hors ligne";
+"privacy_point_3" = "Aucun compte ou inscription nécessaire";
+"privacy_point_4" = "Pas de publicité";
+"privacy_point_5" = "Conformité COPPA - sûr pour les enfants";
+"whats_stored_title" = "Ce qui est Stocké sur Ton Appareil";
+"whats_stored_subtitle" = "Seules tes préférences de jeu sont sauvegardées localement:";
+"stored_item_difficulty" = "Niveau de difficulté";
+"stored_item_display" = "Préférence d'affichage des valeurs de couleur";
+"stored_item_tutorial" = "Paramètres du tutoriel";
+"stored_note" = "Ces données ne quittent jamais ton appareil.";
+"full_policy_text" = "Pour plus de détails, tu peux lire notre Politique de Confidentialité complète à tout moment depuis le menu principal.";
+"continue_button" = "Continuer";
+"agree_text" = "En continuant, tu acceptes notre Politique de Confidentialité";
