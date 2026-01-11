@@ -15,6 +15,14 @@
 "game_title" = "Color Match";
 "match" = "Match!";
 "close" = "Close";
+"new_game" = "New Game";
+"share_result" = "Share Result";
+"share_prompt" = "Want to share with friends?";
+"share_prompt_normal" = "Share this game with friends!";
+"share_text" = "I matched the color in %@ on %@ difficulty in Color Lab 255! Can you beat my time?";
+"share_text_normal" = "Check out Color Lab 255! Learn RGB colors by matching them visually. Fun and educational!";
+"time_elapsed" = "Time";
+"your_level" = "Level";
 "red" = "Red";
 "green" = "Green";
 "blue" = "Blue";
@@ -27,6 +35,8 @@
 "display_options" = "Display Options";
 "show_color_values" = "Show Color Values";
 "color_values_description" = "Toggle to show/hide hex color codes during gameplay";
+"competition_mode" = "Competition Mode";
+"competition_mode_description" = "Race against time! Timer starts when you begin and color values are hidden for extra challenge";
 "target_shape" = "Target Shape";
 "shape_selection_description" = "Select the shape for the target color";
 "support" = "Support";

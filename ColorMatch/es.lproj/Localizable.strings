@@ -15,6 +15,14 @@
 "game_title" = "Coincidencia de Color";
 "match" = "¡Coincidencia!";
 "close" = "Cerrar";
+"new_game" = "Nuevo Juego";
+"share_result" = "Compartir Resultado";
+"share_prompt" = "¿Quieres compartir con amigos?";
+"share_prompt_normal" = "¡Comparte este juego con amigos!";
+"share_text" = "¡Encontré el color en %@ en dificultad %@ en Color Lab 255! ¿Puedes superar mi tiempo?";
+"share_text_normal" = "¡Mira Color Lab 255! Aprende colores RGB combinándolos visualmente. ¡Divertido y educativo!";
+"time_elapsed" = "Tiempo";
+"your_level" = "Nivel";
 "red" = "Rojo";
 "green" = "Verde";
 "blue" = "Azul";
@@ -27,6 +35,8 @@
 "display_options" = "Opciones de Visualización";
 "show_color_values" = "Mostrar Valores de Color";
 "color_values_description" = "Activar/desactivar códigos de color hexadecimales durante el juego";
+"competition_mode" = "Modo Competición";
+"competition_mode_description" = "¡Carrera contra el tiempo! El temporizador comienza cuando empiezas y los valores de color están ocultos para un desafío adicional";
 "target_shape" = "Forma Objetivo";
 "shape_selection_description" = "Selecciona la forma para el color objetivo";
 "support" = "Soporte";

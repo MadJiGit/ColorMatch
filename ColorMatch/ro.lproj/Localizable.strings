@@ -15,6 +15,14 @@
 "game_title" = "Potrivire de Culoare";
 "match" = "Potrivire!";
 "close" = "Închide";
+"new_game" = "Joc Nou";
+"share_result" = "Distribuie Rezultatul";
+"share_prompt" = "Vrei să distribui cu prietenii?";
+"share_prompt_normal" = "Distribuie acest joc cu prietenii!";
+"share_text" = "Am potrivit culoarea în %@ la dificultatea %@ în Color Lab 255! Poți să-mi bați timpul?";
+"share_text_normal" = "Verifică Color Lab 255! Învață culorile RGB potrivindu-le vizual. Distractiv și educativ!";
+"time_elapsed" = "Timp";
+"your_level" = "Nivel";
 "red" = "Roșu";
 "green" = "Verde";
 "blue" = "Albastru";
@@ -27,6 +35,8 @@
 "display_options" = "Opțiuni de Afișare";
 "show_color_values" = "Arată Valorile Culorilor";
 "color_values_description" = "Activează/dezactivează codurile de culoare hexadecimale în timpul jocului";
+"competition_mode" = "Mod Competiție";
+"competition_mode_description" = "Cursă contra cronometru! Cronometrul pornește la început și valorile culorilor sunt ascunse pentru o provocare suplimentară";
 "target_shape" = "Forma Țintă";
 "shape_selection_description" = "Selectează forma pentru culoarea țintă";
 "support" = "Suport";

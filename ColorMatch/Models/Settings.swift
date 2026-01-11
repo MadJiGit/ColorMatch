@@ -88,6 +88,16 @@ class SettingsManager: ObservableObject {
         }
     }
 
+    @Published var competitionMode: Bool {
+        didSet {
+            UserDefaults.standard.set(competitionMode, forKey: "competitionMode")
+            // Auto-disable Show Color Values when Competition Mode is ON
+            if competitionMode {
+                showColorValues = false
+            }
+        }
+    }
+
     @Published var showHowToPlayOnLaunch: Bool {
         didSet {
             UserDefaults.standard.set(showHowToPlayOnLaunch, forKey: "showHowToPlayOnLaunch")
@@ -115,7 +125,10 @@ class SettingsManager: ObservableObject {
             self.difficulty = .medium // Default
         }
 
-        // Load show color values (default true)
+        // Load competition mode (default false) - MUST be loaded before showColorValues
+        self.competitionMode = UserDefaults.standard.object(forKey: "competitionMode") as? Bool ?? false
+
+        // Load show color values (default true, but disabled if competition mode is on)
         self.showColorValues = UserDefaults.standard.object(forKey: "showColorValues") as? Bool ?? true
 
         // Load show how to play on launch (default true for first time)

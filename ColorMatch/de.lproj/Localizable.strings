@@ -15,6 +15,14 @@
 "game_title" = "Farbabgleich";
 "match" = "Treffer!";
 "close" = "Schließen";
+"new_game" = "Neues Spiel";
+"share_result" = "Ergebnis teilen";
+"share_prompt" = "Möchtest du mit Freunden teilen?";
+"share_prompt_normal" = "Teile dieses Spiel mit Freunden!";
+"share_text" = "Ich habe die Farbe in %@ im %@ Schwierigkeitsgrad in Color Lab 255 gefunden! Kannst du meine Zeit schlagen?";
+"share_text_normal" = "Schau dir Color Lab 255 an! Lerne RGB-Farben durch visuelles Anpassen. Spaß und lehrreich!";
+"time_elapsed" = "Zeit";
+"your_level" = "Level";
 "red" = "Rot";
 "green" = "Grün";
 "blue" = "Blau";
@@ -27,6 +35,8 @@
 "display_options" = "Anzeigeoptionen";
 "show_color_values" = "Farbwerte anzeigen";
 "color_values_description" = "Hexadezimale Farbcodes während des Spiels ein-/ausblenden";
+"competition_mode" = "Wettbewerbsmodus";
+"competition_mode_description" = "Rennen gegen die Zeit! Timer startet beim Beginn und Farbwerte sind für zusätzliche Herausforderung versteckt";
 "target_shape" = "Zielform";
 "shape_selection_description" = "Wähle die Form für die Zielfarbe";
 "support" = "Unterstützung";

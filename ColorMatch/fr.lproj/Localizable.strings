@@ -15,6 +15,14 @@
 "game_title" = "Correspondance de Couleur";
 "match" = "Correspondance!";
 "close" = "Fermer";
+"new_game" = "Nouveau Jeu";
+"share_result" = "Partager le Résultat";
+"share_prompt" = "Veux-tu partager avec tes amis?";
+"share_prompt_normal" = "Partage ce jeu avec tes amis!";
+"share_text" = "J'ai trouvé la couleur en %@ en difficulté %@ dans Color Lab 255! Peux-tu battre mon temps?";
+"share_text_normal" = "Découvre Color Lab 255! Apprends les couleurs RVB en les combinant visuellement. Amusant et éducatif!";
+"time_elapsed" = "Temps";
+"your_level" = "Niveau";
 "red" = "Rouge";
 "green" = "Vert";
 "blue" = "Bleu";
@@ -27,6 +35,8 @@
 "display_options" = "Options d'Affichage";
 "show_color_values" = "Afficher les Valeurs de Couleur";
 "color_values_description" = "Activer/désactiver les codes de couleur hexadécimaux pendant le jeu";
+"competition_mode" = "Mode Compétition";
+"competition_mode_description" = "Course contre la montre! Le chronomètre démarre au début et les valeurs de couleur sont cachées pour un défi supplémentaire";
 "target_shape" = "Forme Cible";
 "shape_selection_description" = "Sélectionne la forme pour la couleur cible";
 "support" = "Support";

@@ -72,6 +72,7 @@ struct MainMenuView: View {
                             .cornerRadius(12)
                     }
                 }
+                .frame(maxWidth: 500) // Limit button width on iPad
                 .padding(.horizontal, 40)
 
                 Spacer()

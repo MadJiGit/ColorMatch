@@ -29,8 +29,17 @@ struct SettingsView: View {
             Section(header: Text("display_options")) {
                 Toggle(String(localized: "show_color_values"), isOn: $settings.showColorValues)
                     .tint(.blue)
+                    // TEMPORARY: Commented out for testing - uncomment before release!
+                    .disabled(settings.competitionMode) // Disabled when competition mode is ON
 
                 Text("color_values_description")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+
+                Toggle(String(localized: "competition_mode"), isOn: $settings.competitionMode)
+                    .tint(.blue)
+
+                Text("competition_mode_description")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
@@ -113,6 +122,11 @@ struct SettingsView: View {
                     .foregroundColor(.secondary)
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Color(.systemGroupedBackground))
+        .frame(maxWidth: 700) // Limit width on iPad
+        .frame(maxHeight: 1000) // Limit width on iPad
+        .frame(maxWidth: .infinity, alignment: .center)
         .navigationTitle(String(localized: "settings"))
         .navigationBarTitleDisplayMode(.inline)
     }
